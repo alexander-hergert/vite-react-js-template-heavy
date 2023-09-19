@@ -26,6 +26,10 @@ This is the setup I use for bigger React projects in JavaScript
 
 - [React Router](https://reactrouter.com/en/main/start/overview) React Router is a popular library for routing in React applications. It allows you to navigate between different pages or views in your single-page application (SPA). With React Router, you can define routes and render components based on the URL, creating a seamless user experience.
 
+### Using Redux Toolkit for state management
+
+- [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started) Redux Toolkit is a library that simplifies and streamlines Redux, a state management tool for JavaScript applications. It reduces boilerplate code and provides useful utilities for easier development.
+
 ### images
 
 - public/images with favicon
@@ -41,6 +45,22 @@ This is the setup I use for bigger React projects in JavaScript
 #### netlify.toml
 
 - holding the rules for redirecting for netlify
+
+#### store
+
+- store.js hold the configuration for the store object used in redux. Example file.
+
+#### sliices
+
+- slice directory and example todoSlice.js to demonstrate its use.
+
+#### thunks
+
+- thunks directory and example todoThunk.js to demonstrate its use.
+
+#### Todos Examples
+
+- Example Todos.jsx and Todo.jsx to demonstrate the use of redux.
 
 #### utility functions
 
@@ -81,6 +101,10 @@ This is the setup I use for bigger React projects in JavaScript
 #### HomePage
 
 - Example and placeholder page for starting route
+
+#### ErrorBoundary
+
+- ErrorBoundary.jsx optional component to catch errors and return a component on error
 
 #### Example Test
 
