@@ -1,6 +1,8 @@
 # Template for React Vite setup with JavaScript
 
-This is the setup I use for bigger React projects in JavaScript
+This is the setup I use for bigger React projects in JavaScript.
+The projects have multiple pages and have a lot of functionality and complex state manipulation across the project.
+For fetching data RTK Query is used or async thunks.
 
 ## This template uses following setups
 
@@ -62,9 +64,9 @@ This is the setup I use for bigger React projects in JavaScript
 
 - Example Todos.jsx and Todo.jsx to demonstrate the use of redux.
 
-#### utility functions
+#### utils functions
 
-- utility.js currently has (saveDataToLocalStorage, loadDataFromLocalStorage) functions
+- utils.js currently has (saveDataToLocalStorage, loadDataFromLocalStorage) functions
 
 #### animations
 
