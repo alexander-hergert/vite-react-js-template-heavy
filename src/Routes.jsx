@@ -1,4 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
+import SharedLayout from "./pages/SharedLayout";
+import HomePage from "./pages/HomePage";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -11,31 +14,31 @@ const router = createBrowserRouter([
       },
       {
         path: "/destination",
-        element: <DestinationPage />,
+        // element: <DestinationPage />,
         children: [
           {
             path: ":name",
-            element: <DestinationInnerPage />,
+            // element: <DestinationInnerPage />,
           },
         ],
       },
       {
         path: "/crew",
-        element: <CrewPage />,
+        // element: <CrewPage />,
         children: [
           {
             path: ":name",
-            element: <CrewInnerPage />,
+            // element: <CrewInnerPage />,
           },
         ],
       },
       {
         path: "/technology",
-        element: <TechnologyPage />,
+        // element: <TechnologyPage />,
         children: [
           {
             path: ":name",
-            element: <TechnologyInnerPage />,
+            // element: <TechnologyInnerPage />,
           },
         ],
       },

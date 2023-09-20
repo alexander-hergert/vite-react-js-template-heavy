@@ -52,7 +52,7 @@ For fetching data RTK Query is used or async thunks.
 
 - store.js hold the configuration for the store object used in redux. Example file.
 
-#### sliices
+#### slices
 
 - slice directory and example todoSlice.js to demonstrate its use.
 
@@ -91,6 +91,10 @@ For fetching data RTK Query is used or async thunks.
 #### Routes
 
 - Holding example path and how to structure the paths
+
+#### pages
+
+- pages directory to hold pages  components
 
 #### SharedLayout
 
