@@ -60,6 +60,12 @@ For fetching data RTK Query is used or async thunks.
 
 - thunks directory and example todoThunk.js to demonstrate its use.
 
+#### RTK Query api directory
+
+- api directory holding the apiSlice.js.
+- configured store.js for RTK Query
+- installed Provider in main.jsx
+
 #### Todos Examples
 
 - Example Todos.jsx and Todo.jsx to demonstrate the use of redux.
@@ -94,7 +100,7 @@ For fetching data RTK Query is used or async thunks.
 
 #### pages
 
-- pages directory to hold pages  components
+- pages directory to hold pages components
 
 #### SharedLayout
 
